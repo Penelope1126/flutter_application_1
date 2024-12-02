@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/my_comtainer.dart';
+import 'package:flutter_application_1/my_score.dart';
 
 void main() {
   runApp(const MainApp());
@@ -13,6 +13,6 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'My Flutter Sample',
-        home: MyComtainer());
+        home: MyScrllView());
   }
 }
