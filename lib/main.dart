@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/my_score.dart';
+//import 'package:flutter_application_1/my_grid_page.dart';
+import 'package:flutter_application_1/my_listview.dart';
+//import 'package:flutter_application_1/my_score.dart';
 
 void main() {
   runApp(const MainApp());
@@ -13,6 +15,6 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'My Flutter Sample',
-        home: MyScrllView());
+        home: MyListview());
   }
 }
